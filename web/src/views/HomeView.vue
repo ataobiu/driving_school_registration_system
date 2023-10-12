@@ -11,30 +11,36 @@
         <div class="main">
             <h1>学车流程</h1>
             <div class="flow">
-                <div class="flow_item">
-                    <img src="/img/flow/1.webp" alt="">
-                    <span>找驾校</span>
-                </div>
-                <div class="flow_item">
-                    <img src="/img/flow/2.webp" alt="">
-                    <span>科目一</span>
-                </div>
-                <div class="flow_item">
-                    <img src="/img/flow/3.webp" alt="">
-                    <span>科目二</span>
-                </div>
-                <div class="flow_item">
-                    <img src="/img/flow/4.webp" alt="">
-                    <span>科目三</span>
-                </div>
-                <div class="flow_item">
-                    <img src="/img/flow/5.webp" alt="">
-                    <span>科目四</span>
-                </div>
-                <div class="flow_item">
-                    <img src="/img/flow/6.webp" alt="">
-                    <span>拿本</span>
-                </div>
+                <a href="/practice/select/小车">
+                    <div class="flow_item">
+                        <img src="/img/flow/2.webp" alt="">
+                        <span>科目一</span>
+                    </div>
+                </a>
+                <a href="/practice/select/小车">
+                    <div class="flow_item">
+                        <img src="/img/flow/3.webp" alt="">
+                        <span>科目二</span>
+                    </div>
+                </a>
+                <a href="/practice/select/小车">
+                    <div class="flow_item">
+                        <img src="/img/flow/4.webp" alt="">
+                        <span>科目三</span>
+                    </div>
+                </a>
+                <a href="/practice/select/小车">
+                    <div class="flow_item">
+                        <img src="/img/flow/5.webp" alt="">
+                        <span>科目四</span>
+                    </div>
+                </a>
+                <a href="/practice/select/小车">
+                    <div class="flow_item">
+                        <img src="/img/flow/6.webp" alt="">
+                        <span>拿本</span>
+                    </div>
+                </a>
             </div>
             <h1>小车理论考试</h1>
             <div class="test">
@@ -42,7 +48,7 @@
                     <div class="til">科目一交规</div>
                     <ul>
                         <li>
-                            <a href="">
+                            <a href="/practice/select/小车">
                                 <div>
                                     <img src="/img/test/g1.webp" alt="">
                                 </div>
@@ -50,7 +56,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/practice/select/小车">
                                 <div>
                                     <img src="/img/test/g2.webp" alt="">
                                 </div>
@@ -58,7 +64,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/practice/select/小车">
                                 <div>
                                     <img src="/img/test/g3.webp" alt="">
                                 </div>
@@ -66,7 +72,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/practice/select/小车">
                                 <div>
                                     <img src="/img/test/g4.webp" alt="">
                                 </div>
@@ -75,7 +81,7 @@
                         </li>
                     </ul>
                     <div class="foot">
-                        <a href="">
+                        <a href="/practice/select/小车">
                             <img src="/img/test/g5.webp" alt="">
                             <span>模拟考试</span>
                         </a>
@@ -85,7 +91,7 @@
                     <div class="til">科目四安全文明驾驶</div>
                     <ul>
                         <li>
-                            <a href="">
+                            <a href="/practice/select/小车">
                                 <div>
                                     <img src="/img/test/b1.webp" alt="">
                                 </div>
@@ -93,7 +99,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/practice/select/小车">
                                 <div>
                                     <img src="/img/test/b2.webp" alt="">
                                 </div>
@@ -101,7 +107,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/practice/select/小车">
                                 <div>
                                     <img src="/img/test/b3.webp" alt="">
                                 </div>
@@ -109,7 +115,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/practice/select/小车">
                                 <div>
                                     <img src="/img/test/b4.webp" alt="">
                                 </div>
@@ -118,7 +124,7 @@
                         </li>
                     </ul>
                     <div class="foot" style="background-color: #34a1ff;">
-                        <a href="">
+                        <a href="/practice/select/小车">
                             <img src="/img/test/b5.webp" alt="">
                             <span>模拟考试</span>
                         </a>

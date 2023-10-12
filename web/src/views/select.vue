@@ -27,7 +27,7 @@
                         <li>
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img3.png" alt="">
+                                    <img src="/img/test/g2.webp" alt="">
                                 </div>
                                 <p>专项练习</p>
                                 <span>分门别类重点突破</span>
@@ -36,7 +36,7 @@
                         <li>
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img6.png" alt="">
+                                    <img src="/img/test/g3.webp" alt="">
                                 </div>
                                 <p>章节练习</p>
                                 <span>按照法规章节逐步分类</span>
@@ -45,7 +45,7 @@
                         <li>
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img2.png" alt="">
+                                    <img src="/img/test/g6.webp" alt="">
                                 </div>
                                 <p>易错题</p>
                                 <span>准确把握考试难点</span>
@@ -54,7 +54,7 @@
                         <li>
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img4.png" alt="">
+                                    <img src="/img/test/g4.webp" alt="">
                                 </div>
                                 <p>错题本</p>
                                 <span>全部错题（<i>0</i>题）</span>
@@ -71,19 +71,19 @@
             <el-tab-pane :label="route.params.name + '小车科目四（安全文明驾驶）'">
                 <div class="active">
                     <ul class="t">
-                        <li>
+                        <li style="background-color: #34a1ff;">
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img5.png" alt="">
+                                    <img src="/img/test/b5.webp" alt="">
                                 </div>
                                 <p>模拟考试</p>
                                 <span>模拟在线真实考场</span>
                             </a>
                         </li>
-                        <li>
+                        <li style="background-color: #34a1ff;">
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img1.png" alt="">
+                                    <img src="/img/test/b1.webp" alt="">
                                 </div>
                                 <p>顺序练习</p>
                                 <span>按顺序练习做题</span>
@@ -94,7 +94,7 @@
                         <li>
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img3.png" alt="">
+                                    <img src="/img/test/b3.webp" alt="">
                                 </div>
                                 <p>专项练习</p>
                                 <span>分门别类重点突破</span>
@@ -103,7 +103,7 @@
                         <li>
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img6.png" alt="">
+                                    <img src="/img/test/b2.webp" alt="">
                                 </div>
                                 <p>章节练习</p>
                                 <span>按照法规章节逐步分类</span>
@@ -112,7 +112,7 @@
                         <li>
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img2.png" alt="">
+                                    <img src="/img/test/b6.webp" alt="">
                                 </div>
                                 <p>易错题</p>
                                 <span>准确把握考试难点</span>
@@ -121,7 +121,7 @@
                         <li>
                             <a href="">
                                 <div>
-                                    <img src="http://j1.58cdn.com.cn/dist/pcNewSite/images/home/km1-img4.png" alt="">
+                                    <img src="/img/test/b4.webp" alt="">
                                 </div>
                                 <p>错题本</p>
                                 <span>全部错题（<i>0</i>题）</span>
@@ -140,7 +140,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 
 const route = useRoute();

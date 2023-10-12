@@ -1,4 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { ElNotification } from 'element-plus'
+
 const routes = [
   {
     path: "/",
@@ -53,16 +55,20 @@ const router = createRouter({
   routes
 })
 
-// router.beforeEach((to, from, next) => {
-//   const token = localStorage.getItem('token')
-//   if (to.path == '/explore') {
-//     next()
-//   } else if (token) {
-//     next()
-//   } else if (!token && to.path != '/explore') {
-//     showNotify({ message: '请先登录', background: '#ee0a24' });
-//     next('/explore')
-//   }
-// })
+router.beforeEach((to, from, next) => {
+  const token = localStorage.getItem('token')
+  if (to.path == '/home' || to.path == '/login' || to.path == '/register') {
+    next()
+  } else if (token) {
+    next()
+  } else if (!token && to.path != '/') {
+    ElNotification({
+      title: '失败',
+      message: '请先登录！',
+      type: 'error',
+    })
+    next('/')
+  }
+})
 
 export default router
