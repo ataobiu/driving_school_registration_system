@@ -3,15 +3,15 @@
 
  Source Server         : wsl2
  Source Server Type    : MySQL
- Source Server Version : 80100
+ Source Server Version : 80200
  Source Host           : localhost:3306
  Source Schema         : drivingSchool
 
  Target Server Type    : MySQL
- Target Server Version : 80100
+ Target Server Version : 80200
  File Encoding         : 65001
 
- Date: 11/10/2023 23:21:42
+ Date: 30/11/2023 11:24:07
 */
 
 SET NAMES utf8mb4;
@@ -31,10 +31,27 @@ CREATE TABLE `form`  (
   `type` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '驾照类型',
   `desc` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '留言',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 69 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of form
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for questions
+-- ----------------------------
+DROP TABLE IF EXISTS `questions`;
+CREATE TABLE `questions`  (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '题库内容',
+  `anwser` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL,
+  `is_correct` tinyint(1) NULL DEFAULT NULL,
+  `create_time` datetime NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of questions
 -- ----------------------------
 
 -- ----------------------------
@@ -47,8 +64,9 @@ CREATE TABLE `user`  (
   `pwd` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '密码',
   `nickname` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT '学员' COMMENT '用户昵称',
   `role` int NOT NULL DEFAULT 0 COMMENT '用户权限',
-  PRIMARY KEY (`id`, `role`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '用户表' ROW_FORMAT = Dynamic;
+  PRIMARY KEY (`id`, `role`) USING BTREE,
+  INDEX `id`(`id` ASC) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci COMMENT = '用户表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of user
