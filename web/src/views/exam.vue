@@ -20,8 +20,8 @@
                         </div>
                         <div>
                             <span>请选择：</span>
-                            <el-button :class="userAnwser[currentQuest].anwser === index ? 'active' : ''"
-                                @click="updateUserSelect(exams[currentQuest].id, index)"
+                            <el-button :class="userAnwser[currentQuest]?.anwser === index ? 'active' : ''"
+                                @click="updateUserSelect(exams[currentQuest]?.id, index)"
                                 v-for="(item, index) in (exams[currentQuest]?.anwser)" type="success" plain>
                                 {{ anwserOption[index] }}
                             </el-button>
