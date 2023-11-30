@@ -23,6 +23,11 @@ const routes = [
             path: "select/:name",
             component: () => import('@/views/select.vue')
           },
+          {
+            // 考试页面
+            path: "exam/:name",
+            component: () => import('@/views/exam.vue')
+          },
         ]
       },
       {

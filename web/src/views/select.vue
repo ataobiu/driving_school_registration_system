@@ -5,7 +5,7 @@
                 <div class="active">
                     <ul class="t">
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/g5.webp" alt="">
                                 </div>
@@ -14,7 +14,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/g1.webp" alt="">
                                 </div>
@@ -25,7 +25,7 @@
                     </ul>
                     <ul class="b">
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/g2.webp" alt="">
                                 </div>
@@ -34,7 +34,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/g3.webp" alt="">
                                 </div>
@@ -43,7 +43,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/g6.webp" alt="">
                                 </div>
@@ -52,7 +52,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/g4.webp" alt="">
                                 </div>
@@ -72,7 +72,7 @@
                 <div class="active">
                     <ul class="t">
                         <li style="background-color: #34a1ff;">
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/b5.webp" alt="">
                                 </div>
@@ -81,7 +81,7 @@
                             </a>
                         </li>
                         <li style="background-color: #34a1ff;">
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/b1.webp" alt="">
                                 </div>
@@ -92,7 +92,7 @@
                     </ul>
                     <ul class="b">
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/b3.webp" alt="">
                                 </div>
@@ -101,7 +101,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/b2.webp" alt="">
                                 </div>
@@ -110,7 +110,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/b6.webp" alt="">
                                 </div>
@@ -119,7 +119,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a :href="'/practice/exam/' + route.params.name">
                                 <div>
                                     <img src="/img/test/b4.webp" alt="">
                                 </div>

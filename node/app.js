@@ -8,6 +8,7 @@ const secret = "Hash('哈哈')"
 
 var usersRouter = require('./routes/users');
 var formRouter = require('./routes/form');
+var examRouter = require('./routes/exam');
 
 var app = express();
 var http = require('http');
@@ -28,6 +29,7 @@ app.use(logger);
 
 app.use('/form', formRouter);
 app.use('/user', usersRouter);
+app.use('/exam', examRouter);
 
 function logger(req, res, next) {
   const time = new Date();
