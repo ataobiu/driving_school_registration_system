@@ -28,6 +28,10 @@ request.interceptors.response.use(
         return res;
     },
     error => {
+        if (error.response && error.response.status === 401) {
+            // 重定向到登录页面
+            window.location.href = '/login';
+        }
         return Promise.reject(error)
     }
 )
